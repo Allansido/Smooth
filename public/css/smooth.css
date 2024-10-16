@@ -1,0 +1,130 @@
+
+html{
+    font-family: 'Circular Std', sans-serif;
+}
+
+body{
+    margin: 0px;
+}
+
+body>*{
+    margin: .2em;
+}
+
+h2{
+    background-color: white;
+    color: #8f228e;
+    padding: .15em .5em;
+    border-radius: 10em;
+    text-align: center;
+    width: fit-content;
+    margin: 0.7em auto;
+}
+
+header{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #8f228e;
+    background-color: #0a8c8e;
+    padding: .3em;
+    border-radius: 10em;
+}
+
+header p{
+    margin: .5em;
+    background-color: white;
+    padding: .3em;
+    border-radius: 10em;
+}
+
+.something{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+nav {
+    background-color: #0a8c8e;
+    padding: .4em;
+    border-radius: 2em;
+}
+
+form{
+    width: 75vw;
+    background-color: #0a8c8e;
+    padding: .6em;
+    border-radius: 2em;
+}
+
+button {
+    background-color: #8f228e;
+    color: #ffffff;
+    padding: .3em;
+    text-align: center;
+    font-size: 1em;
+    margin: 0.2em;
+    cursor: pointer;
+    border-radius: 10em;
+    width: 20vw;
+    font-family: 'Circular Std', sans-serif;
+    border: none;
+}
+
+nav button{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0.5em;
+}
+
+.deleteButton{
+    width: auto;
+    background-color: white;
+}
+
+.deleteButton img{
+    width: 1.2em;
+}
+
+button:hover{
+    background-color: rgba(218, 71, 217, 0.73)
+}
+
+label{
+    background-color: #8f228e;
+    color: white;
+    padding: .15em .5em;
+    border-radius: 10em;
+}
+
+input{
+    border-radius: 10em;
+}
+
+select{
+    border-radius: 10em;
+}
+
+textarea{
+    border-radius: 0.5em;
+}
+
+
+div{
+    margin-bottom: .5em;
+}
+
+footer {
+    background-color: #0a8c8e;
+    padding: .4em;
+    border-radius: 2em;
+}
+
+.track-div {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5em;
+}
+
+.track-div input {
+    margin-right: .5em;
+}
